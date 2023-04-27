@@ -61,7 +61,21 @@ Tous les fichiers images ont été créés par [Julie](https://github.com/julies
 * [rpetitebleue.png](https://github.com/julies01/kikkeri/blob/sources/images/rpetitebleue.png)  
 
 * [rpetiterouge.png](https://github.com/julies01/kikkeri/blob/sources/images/rpetiterouge.png)
+___
+# FICHIER POLICE UTILISÉ (dans ./police/):
 
+La police utilisée dans le jeu est Arcade Classic. 
+
+* [ARCADECLASSIC.TTF](https://github.com/julies01/kikkeri/blob/sources/police/ARCADECLASSIC.TTF)
+
+> This font is copyright (c) Jakob Fischer at www.pizzadude.dk,  all rights reserved. Do not distribute without the author's permission.
+>
+> Use this font for non-commercial use only! If you plan to use it for commercial purposes, contact me before doing so!
+> For more original fonts take a look at www.pizzadude.dk
+> Have fun and enjoy!
+> Jakob Fischer
+> jakob@pizzadude.dk
+> www.pizzadude.dk
 
 ___  
 
