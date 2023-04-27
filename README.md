@@ -18,19 +18,30 @@ ___
 # FICHIERS IMAGES UTILISÉS (dans ./images/):
 Tous les fichiers images ont été créés par [Julie](https://github.com/julies01 " Le profil de Julie") à l'aide de [Canva](https://www.canva.com/ "Canva") :  
 
-*[ballon.png](https://github.com/julies01/kikkeri/blob/sources/images/3d3b.png)  
-*[3d3b.png](https://github.com/julies01/kikkeri/blob/sources/images/ballon.png)
-*[commencer.png](https://github.com/julies01/kikkeri/blob/sources/images/commencer.png)
-*[fin.png](https://github.com/julies01/kikkeri/blob/sources/images/fin.png)
-*[fondblanc.png](https://github.com/julies01/kikkeri/blob/sources/images/fondblanc.png)
-*[grandebleue.png](https://github.com/julies01/kikkeri/blob/sources/images/grandebleue.png)
-*[granderouge.png](https://github.com/julies01/kikkeri/blob/sources/images/granderouge.png)
-*[instructions.png](https://github.com/julies01/kikkeri/blob/sources/images/instructions.png)
-*[j10.png](https://github.com/julies01/kikkeri/blob/sources/images/j10.png)
-*[j5.png](https://github.com/julies01/kikkeri/blob/sources/images/j5.png)
-*[j3.png](https://github.com/julies01/kikkeri/blob/sources/images/j3.png)
-*[ji.png](https://github.com/julies01/kikkeri/blob/sources/images/ji.png)
-*[kikkerifin.png](https://github.com/julies01/kikkeri/blob/sources/images/kikkerifin.png)
+* [ballon.png](https://github.com/julies01/kikkeri/blob/sources/images/3d3b.png)  
+* [3d3b.png](https://github.com/julies01/kikkeri/blob/sources/images/ballon.png)  
+* [commencer.png](https://github.com/julies01/kikkeri/blob/sources/images/commencer.png)  
+
+* [fin.png](https://github.com/julies01/kikkeri/blob/sources/images/fin.png)  
+
+* [fondblanc.png](https://github.com/julies01/kikkeri/blob/sources/images/fondblanc.png)  
+
+* [grandebleue.png](https://github.com/julies01/kikkeri/blob/sources/images/grandebleue.png)  
+
+* [granderouge.png](https://github.com/julies01/kikkeri/blob/sources/images/granderouge.png)  
+
+* [instructions.png](https://github.com/julies01/kikkeri/blob/sources/images/instructions.png)  
+
+* [j10.png](https://github.com/julies01/kikkeri/blob/sources/images/j10.png)  
+
+* [j5.png](https://github.com/julies01/kikkeri/blob/sources/images/j5.png)  
+
+* [j3.png](https://github.com/julies01/kikkeri/blob/sources/images/j3.png)  
+
+* [ji.png](https://github.com/julies01/kikkeri/blob/sources/images/ji.png)  
+
+*[kikkerifin.png](https://github.com/julies01/kikkeri/blob/sources/images/kikkerifin.png)  
+
 *[logo.png](https://github.com/julies01/kikkeri/blob/sources/images/logo.png)
 *[nvfond2.png](https://github.com/julies01/kikkeri/blob/sources/images/nvfond2.png)
 *[petitebleue.png](https://github.com/julies01/kikkeri/blob/sources/images/petitebleue.png)
