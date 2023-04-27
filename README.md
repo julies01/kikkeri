@@ -8,7 +8,7 @@ ___
 
 Afin de pouvoir jouer à notre jeu, il vous faut au départ installer le module suivant :  
 
-*Pygame  
+* Pygame  
 
 Voici la commande afin d'installer ce module : 
 
@@ -56,7 +56,7 @@ Tous les fichiers images ont été créés par [Julie](https://github.com/julies
 
 * [rgrandebleue.png](https://github.com/julies01/kikkeri/blob/sources/images/rgrandebleue.png)  
 
-*[rgranderouge.png](https://github.com/julies01/kikkeri/blob/sources/images/rgranderouge.png)  
+* [rgranderouge.png](https://github.com/julies01/kikkeri/blob/sources/images/rgranderouge.png)  
 
 * [rpetitebleue.png](https://github.com/julies01/kikkeri/blob/sources/images/rpetitebleue.png)  
 
