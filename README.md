@@ -68,7 +68,7 @@ La police utilisée dans le jeu est Arcade Classic.
 
 * [ARCADECLASSIC.TTF](https://github.com/julies01/kikkeri/blob/sources/police/ARCADECLASSIC.TTF)  
 
-Les conditions d'utilisation de catte police.
+Les conditions d'utilisation de cette police.
 
 > This font is copyright (c) Jakob Fischer at www.pizzadude.dk,  all rights reserved. Do not distribute without the author's permission.
 >
