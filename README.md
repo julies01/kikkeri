@@ -40,18 +40,27 @@ Tous les fichiers images ont été créés par [Julie](https://github.com/julies
 
 * [ji.png](https://github.com/julies01/kikkeri/blob/sources/images/ji.png)  
 
-*[kikkerifin.png](https://github.com/julies01/kikkeri/blob/sources/images/kikkerifin.png)  
+* [kikkerifin.png](https://github.com/julies01/kikkeri/blob/sources/images/kikkerifin.png)  
 
-*[logo.png](https://github.com/julies01/kikkeri/blob/sources/images/logo.png)
-*[nvfond2.png](https://github.com/julies01/kikkeri/blob/sources/images/nvfond2.png)
-*[petitebleue.png](https://github.com/julies01/kikkeri/blob/sources/images/petitebleue.png)
-*[petiterouge.png](https://github.com/julies01/kikkeri/blob/sources/images/petiterouge.png)
-*[quitter.png](https://github.com/julies01/kikkeri/blob/sources/images/quitter.png)
-*[rejouer.png](https://github.com/julies01/kikkeri/blob/sources/images/rejouer.png)
-*[rgrandebleue.png](https://github.com/julies01/kikkeri/blob/sources/images/rgrandebleue.png)
-*[rgranderouge.png](https://github.com/julies01/kikkeri/blob/sources/images/rgranderouge.png)
-*[rpetitebleue.png](https://github.com/julies01/kikkeri/blob/sources/images/rpetitebleue.png)
-*[rpetiterouge.png](https://github.com/julies01/kikkeri/blob/sources/images/rpetiterouge.png)
+* [logo.png](https://github.com/julies01/kikkeri/blob/sources/images/logo.png)  
+
+* [nvfond2.png](https://github.com/julies01/kikkeri/blob/sources/images/nvfond2.png)  
+
+* [petitebleue.png](https://github.com/julies01/kikkeri/blob/sources/images/petitebleue.png)  
+
+* [petiterouge.png](https://github.com/julies01/kikkeri/blob/sources/images/petiterouge.png)  
+
+* [quitter.png](https://github.com/julies01/kikkeri/blob/sources/images/quitter.png)  
+
+* [rejouer.png](https://github.com/julies01/kikkeri/blob/sources/images/rejouer.png)  
+
+* [rgrandebleue.png](https://github.com/julies01/kikkeri/blob/sources/images/rgrandebleue.png)  
+
+*[rgranderouge.png](https://github.com/julies01/kikkeri/blob/sources/images/rgranderouge.png)  
+
+* [rpetitebleue.png](https://github.com/julies01/kikkeri/blob/sources/images/rpetitebleue.png)  
+
+* [rpetiterouge.png](https://github.com/julies01/kikkeri/blob/sources/images/rpetiterouge.png)
 
 
 ___  
