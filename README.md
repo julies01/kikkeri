@@ -2,7 +2,7 @@
 # KIKKERI (LIBRAIRIE PYGAME)  
 
 
-Ce projet a été codé par [El Mehdi](https://github.com/Bianchey" Le profil d'El Mehdi) et [Julie](https://github.com/julies01" Le profil de Julie) pour le concours **Les trophées NSI** en avril 2023. Il a été réalisé en Python.
+Ce projet a été codé par [El Mehdi](https://github.com/Bianchey "Le profil d'El Mehdi") et [Julie](https://github.com/julies01 "Le profil de Julie") pour le concours **Les trophées NSI** en avril 2023. Il a été réalisé en Python.
 ___
 # PRÉREQUIS POUR L'INSTALLATION 
 
@@ -15,7 +15,7 @@ Voici la commande afin d'installer ce module :
 
 ___
 # FICHIERS IMAGES UTILISÉS (dans ./image/):
-Tous les fichiers images ont été créés par [Julie](https://github.com/julies01" Le profil de Julie) à l'aide de [Canva](https://www.canva.com/"Canva"):  
+Tous les fichiers images ont été créés par [Julie](https://github.com/julies01 " Le profil de Julie") à l'aide de [Canva](https://www.canva.com/"Canva"):  
 
 *ballon.png  
 *3d3b.png
