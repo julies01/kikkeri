@@ -16,55 +16,55 @@ fenetre = pygame.display.set_mode((largeur, hauteur))
 #ajouter les images dont on a besoin pour le jeu
 #pour les images de boutons, on crée aussi un masque avec la fonction "get_rect"
 #boutons
-bouton_commencer = pygame.image.load('commencer.png')
+bouton_commencer = pygame.image.load('images/commencer.png')
 bouton_commencer_rect = bouton_commencer.get_rect()
 bouton_commencer_rect.x = 350
 bouton_commencer_rect.y = 400
-bouton_jouer = pygame.image.load('ji.png')
+bouton_jouer = pygame.image.load('images/ji.png')
 bouton_jouer_rect = bouton_jouer.get_rect()
 bouton_jouer_rect.x = 300
 bouton_jouer_rect.y = 450
-bouton_fin = pygame.image.load('fin.png')
+bouton_fin = pygame.image.load('images/fin.png')
 bouton_fin_rect = bouton_fin.get_rect()
 bouton_fin_rect.x = 900
 bouton_fin_rect.y = 20
-bouton_rejouer = pygame.image.load('rejouer.png')
+bouton_rejouer = pygame.image.load('images/rejouer.png')
 bouton_rejouer_rect = bouton_rejouer.get_rect()
 bouton_rejouer_rect.x = 138
 bouton_rejouer_rect.y = 450
-bouton_quitter = pygame.image.load('quitter.png')
+bouton_quitter = pygame.image.load('images/quitter.png')
 bouton_quitter_rect = bouton_quitter.get_rect()
 bouton_quitter_rect.x = 600
 bouton_quitter_rect.y = 450
-bouton_j3 = pygame.image.load('3d3b.png')
+bouton_j3 = pygame.image.load('images/3d3b.png')
 bouton_j3_rect = bouton_j3.get_rect()
 bouton_j3_rect.x = 500
 bouton_j3_rect.y = 450
-bouton_j5 = pygame.image.load('j5.png')
+bouton_j5 = pygame.image.load('images/j5.png')
 bouton_j5_rect = bouton_j5.get_rect()
 bouton_j5_rect.x = 155
 bouton_j5_rect.y = 540
-bouton_j10 = pygame.image.load('j10.png')
+bouton_j10 = pygame.image.load('images/j10.png')
 bouton_j10_rect = bouton_j10.get_rect()
 bouton_j10_rect.x = 500
 bouton_j10_rect.y = 540
 #fonds
-instructions = pygame.image.load('instructions.png')
-fondblanc = pygame.image.load('fondblanc.png')
-bannière = pygame.image.load('logo.png')
-fondfin = pygame.image.load('kikkerifin.png')
-fond = pygame.image.load('nvfond2.png')
+instructions = pygame.image.load('images/instructions.png')
+fondblanc = pygame.image.load('images/fondblanc.png')
+bannière = pygame.image.load('images/logo.png')
+fondfin = pygame.image.load('images/kikkerifin.png')
+fond = pygame.image.load('images/nvfond2.png')
 #ballon
-ballon = pygame.image.load('ballon.png')
+ballon = pygame.image.load('images/ballon.png')
 #pales
-i1a = pygame.image.load('rpetitebleue.png')
-i1b = pygame.image.load('petitebleue.png')
-i1c = pygame.image.load('rgrandebleue.png')
-i1d = pygame.image.load('grandebleue.png')
-i2a = pygame.image.load('rpetiterouge.png')
-i2b = pygame.image.load('petiterouge.png')
-i2c = pygame.image.load('rgranderouge.png')
-i2d = pygame.image.load('granderouge.png')
+i1a = pygame.image.load('images/rpetitebleue.png')
+i1b = pygame.image.load('images/petitebleue.png')
+i1c = pygame.image.load('images/rgrandebleue.png')
+i1d = pygame.image.load('images/grandebleue.png')
+i2a = pygame.image.load('images/rpetiterouge.png')
+i2b = pygame.image.load('images/petiterouge.png')
+i2c = pygame.image.load('images/rgranderouge.png')
+i2d = pygame.image.load('images/granderouge.png')
 
 # Définir les couleurs utilisées dans le jeu
 blanc = (255, 255, 255)
@@ -91,7 +91,7 @@ balle = ballon.get_rect()
 def clique_quitter():
     jeu = True 
     while jeu == True :
-      police1 = pygame.font.Font('ARCADECLASSIC.TTF', 50)
+      police1 = pygame.font.Font('police/ARCADECLASSIC.TTF', 50)
       fenetre.blit(fondfin, (0,0))
       message_fin = "Merci  d avoir joue !" 
       aff_mess = police1.render(str(message_fin), 1, noir)
@@ -105,7 +105,7 @@ def clique_quitter():
 def clique_fin(s1,s2):
     jeu = True 
     while jeu == True :
-      police1 = pygame.font.Font('ARCADECLASSIC.TTF', 50)
+      police1 = pygame.font.Font('police/RCADECLASSIC.TTF', 50)
       fenetre.blit(fondblanc, (0,0))
       fenetre.blit(bouton_rejouer,bouton_rejouer_rect)
       fenetre.blit(bouton_quitter,bouton_quitter_rect)
@@ -149,7 +149,7 @@ def page_jeu(seuil):
     score_j1 = 0
     score_j2 = 0
     montre = pygame.time.Clock()
-    police1 = pygame.font.Font('ARCADECLASSIC.TTF', 40)
+    police1 = pygame.font.Font('police/ARCADECLASSIC.TTF', 40)
     joueur_1a = i1a.get_rect()
     joueur_1a.x = 357
     joueur_1a.y = 640
