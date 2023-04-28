@@ -16,7 +16,7 @@ fenetre = pygame.display.set_mode((largeur, hauteur))
 #ajouter les images dont on a besoin pour le jeu
 #pour les images de boutons, on crée aussi un masque avec la fonction "get_rect"
 #boutons
-bouton_commencer = pygame.image.load('images/commencer.png')
+bouton_commencer = pygame.image.load('images\\commencer.png')
 bouton_commencer_rect = bouton_commencer.get_rect()
 bouton_commencer_rect.x = 350
 bouton_commencer_rect.y = 400
