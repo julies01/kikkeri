@@ -1,7 +1,6 @@
 from pygame import *
 import pygame
 import sys
-import os
 import time
 
 # Initialiser Pygame
@@ -17,7 +16,7 @@ fenetre = pygame.display.set_mode((largeur, hauteur))
 #ajouter les images dont on a besoin pour le jeu
 #pour les images de boutons, on crée aussi un masque avec la fonction "get_rect"
 #boutons
-bouton_commencer = pygame.image.load(os.path.join("images","commencer.png"))
+bouton_commencer = pygame.image.load('images/commencer.png')
 bouton_commencer_rect = bouton_commencer.get_rect()
 bouton_commencer_rect.x = 350
 bouton_commencer_rect.y = 400
@@ -106,7 +105,7 @@ def clique_quitter():
 def clique_fin(s1,s2):
     jeu = True 
     while jeu == True :
-      police1 = pygame.font.Font('police/RCADECLASSIC.TTF', 50)
+      police1 = pygame.font.Font('police/ARCADECLASSIC.TTF', 50)
       fenetre.blit(fondblanc, (0,0))
       fenetre.blit(bouton_rejouer,bouton_rejouer_rect)
       fenetre.blit(bouton_quitter,bouton_quitter_rect)
