@@ -145,6 +145,7 @@ def page_jeu(seuil):
     balle.x = 310
     balle.y = 230
     vitesse_balle = [3, 3]
+    vmax = [20, 20]
     score_j1 = 0
     score_j2 = 0
     montre = pygame.time.Clock()
@@ -156,10 +157,10 @@ def page_jeu(seuil):
     joueur_1b.x = 355
     joueur_1b.y = 105
     joueur_1c = i1c.get_rect()
-    joueur_1c.x = 95
+    joueur_1c.x = 97
     joueur_1c.y = 515
     joueur_1d = i1d.get_rect()
-    joueur_1d.x = 99
+    joueur_1d.x = 101
     joueur_1d.y = 193
     joueur_2a = i2a.get_rect()
     joueur_2a.x = 628
@@ -171,7 +172,7 @@ def page_jeu(seuil):
     joueur_2c.x = 882
     joueur_2c.y = 513
     joueur_2d = i2d.get_rect()
-    joueur_2d.x = 887
+    joueur_2d.x = 884
     joueur_2d.y = 197
 
     joueur_1a_init = joueur_1a.copy()
@@ -265,25 +266,37 @@ def page_jeu(seuil):
         # Déplacer la balle
         balle.move_ip(vitesse_balle)
         if balle.top < 175 or balle.bottom > 647:
-            vitesse_balle[1] += 3
+            vitesse_balle[1] += 2
             vitesse_balle[1] = -vitesse_balle[1]
+        if balle.colliderect(joueur_1c) or balle.colliderect(joueur_1d) or balle.colliderect(contour_a) or balle.colliderect(contour_e):
+            vitesse_balle[0] += 2
+            vitesse_balle[0] = abs(vitesse_balle[0])
+        
+        if balle.colliderect(joueur_2c) or balle.colliderect(joueur_2d) or balle.colliderect(contour_c) or balle.colliderect(contour_f):
+            vitesse_balle[0] += 2
+            vitesse_balle[0] = abs(vitesse_balle[0])
+        
         if balle.colliderect(joueur_1a) or balle.colliderect(
-                joueur_1b) or balle.colliderect(joueur_1c) or balle.colliderect(
-                    joueur_1d
-                ) or balle.colliderect(joueur_2a) or balle.colliderect(
+                joueur_1b) or balle.colliderect(joueur_2a) or balle.colliderect(
                     joueur_2b) or balle.colliderect(
                         joueur_2c) or balle.colliderect(
                             joueur_2d) or balle.colliderect(
-                                contour_a) or balle.colliderect(
-                                    contour_c) or balle.colliderect(
-                                        contour_e) or balle.colliderect(contour_f):
-            vitesse_balle[0] += 3
+                                    contour_c) or balle.colliderect(contour_f):
+            vitesse_balle[0] += 2
             vitesse_balle[0] = -vitesse_balle[0]
-
+            
+        if vitesse_balle[0] > vmax[0]:
+            vitesse_balle[0] -= 3
+        if vitesse_balle[1] > vmax[1]:
+            vitesse_balle[1] -= 3
+        if vitesse_balle[0] > vmax[0] and vitesse_balle[1] > vmax[1]:
+            vitesse_balle[0] -= 3
+            vitesse_balle[1] -= 3
+            
         # Correction de bugs
         
         if balle.y < 170:
-            vitesse_balle[1] += 3
+            vitesse_balle[1] += 2
             vitesse_balle[1] = abs(vitesse_balle[1])
             balle.y = 170
     
@@ -294,7 +307,7 @@ def page_jeu(seuil):
             balle.x = 850
             balle.y = 230
             pygame.time.wait(250)
-            vitesse_balle = [-3, -3]
+            vitesse_balle = [-5, -5]
 
         if balle.colliderect(contour_h):
             vitesse_balle[1] += 2
@@ -303,7 +316,7 @@ def page_jeu(seuil):
             balle.x = 310
             balle.y = 230
             pygame.time.wait(250)
-            vitesse_balle = [3, 3]
+            vitesse_balle = [5, 5]
 
         if seuil != None :
           if score_j1 == seuil or score_j2 == seuil :
