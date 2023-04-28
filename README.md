@@ -88,4 +88,6 @@ ___
 
 # Veuillez apprécier le jeu !   
 
-À l'attention des utilisateurs : Par manque de temps, on n'a pas réussi à développer toutes les fonctionnalités qu'on souhaitait implémenter, celles-ci arriveront prochainement !
+À l'attention des utilisateurs :   
+N'oubliez pas d'extraire les fichiers si vous téléchargez les fichiers dans un dossier zip. Si vous ne les extraiyez pas, le jeu ne marchera pas !
+Par manque de temps, on n'a pas réussi à développer toutes les fonctionnalités qu'on souhaitait implémenter, celles-ci arriveront prochainement !
